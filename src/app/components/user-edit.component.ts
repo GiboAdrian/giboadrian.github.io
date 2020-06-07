@@ -59,7 +59,8 @@ export class UserEditComponent implements OnInit{
 								console.log(this.user.role);
 								console.log(this.user.image);
 								this.user.image = result.image;
-								
+								console.log("Despues de la variable");
+								console.log(result.image);
 								console.log(this.user.image);
 								localStorage.setItem('identity', JSON.stringify(this.user));
 
