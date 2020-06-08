@@ -61,7 +61,7 @@ export class UserEditComponent implements OnInit{
 								this.user.image = result.user.image;
 								console.log("Despues de la variable");
 								console.log(this.filesToUpload);
-								console.log(result.user.image);
+								console.log(result.user);
 								console.log(this.user.image);
 								localStorage.setItem('identity', JSON.stringify(this.user));
 
